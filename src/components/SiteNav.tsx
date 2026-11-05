@@ -102,7 +102,6 @@ export function SiteNav() {
             aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
             onClick={toggleTheme}
           >
-            <span className="theme-toggle-swatch" aria-hidden="true" />
             {theme === 'dark' ? 'Light mode' : 'Dark mode'}
           </button>
         </nav>
